@@ -1,0 +1,7 @@
+n = input('enter your name : ')
+fn = input('enter your father name : ')
+mn = input('enter your mother name : ')
+c = input('enter your class : ')
+cr = input('enter your class role : ')
+s = input('where are you leaving : ')
+print (f"my doggy name is {n}.my doggy's mother name is {mn} and his father name is {fn}. my doggy read in class {c} and his role is {cr}. my dogy live in {s}.")

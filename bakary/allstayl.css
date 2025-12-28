@@ -1,0 +1,22 @@
+img{
+		height: 300px;
+		width: 345px;
+		display: flex;
+}
+button{
+		height: 50px;
+		width:140px;
+		color: gold;
+		background-color: deeppink;
+		font-size: 17px;
+		margin: 12px
+}
+table{
+		font-size: 27px;
+		color: cyan;
+		background: linear-gradient(to right bottom, #ebef78d9,#b4df40,#9bf042);
+}
+body{
+		background: linear-gradient(to top left, #374aefaf,#a53df2af);
+}
+

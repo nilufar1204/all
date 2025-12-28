@@ -1,0 +1,367 @@
+#search-box{
+      font-size: 15px;
+      height: 33px;
+      width: 220px ;
+      margin-left: 10px;
+      padding: 0;
+      border-radius: 5px
+    }
+    #s{
+      font-size: 20px;
+      margin: 0px;
+      border-radius: 5px;
+      animation: none;
+      background: blue;
+      font-size: 20px;
+      height: 33px;
+      width: 100px
+    }  
+input{
+      font-size: 15px;
+      
+          
+    }
+    img{
+      height: 300px;
+      width: 300px;
+      display: block;
+      margin: auto;
+      
+      border: 3.5px;
+      border-top-color: blue;
+      border-right-color: blueviolet;
+      border-left-color: cornflowerblue;
+      border-bottom-color: cyan;    
+      border-radius: 25px;    
+      border-style: dotted;
+      box-shadow: 8px 7px 5px #676a75ad; 
+               
+    }
+button{
+		background: linear-gradient(to left, #ddff87,#c1ff25,#93cd00,#52ca00,#26f500,#00d059);
+		height: 50px;
+		width: 170px;
+		font-size: 27px;
+		animation-name: s;
+		animation-duration: 2s;
+		animation-iteration-count: 100000000000000000000000000000000000000000000000000000000000000;
+		font-weight: bolder;
+		border: 3px;
+		border-block-end-style: dotted;
+		border-top-style: dashed;
+		border-left-style: dotted;
+		border-right-style: dashed;
+		border-top-right-radius : 20px;
+		border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+		box-shadow: -4px -4px 2px #39474a;
+margin: 10px
+}
+@keyframes s{
+   0% {
+      color: #ff8504d2;
+   		  background: linear-gradient(to left,#00d059,#ddff87,#c1ff25,#93cd00,#52ca00,#26f500);
+   }
+   5%{
+      color:#e3a35396;
+   		  background: linear-gradient(to left,#26f500,#00d059,#ddff87,#c1ff25,#93cd00,#52ca00);
+   }
+   10%{
+      color:#1300b8;
+   		  background: linear-gradient(to left,#52ca00,#26f500,#00d059,#ddff87,#c1ff25,#93cd00);
+   }
+   15%{
+      color:#a200ac ;
+   		  background: linear-gradient(to left,#93cd00,#52ca00,#26f500,#00d059,#ddff87,#c1ff25);
+   }
+   20%{
+      color: #00b9c3 ;
+   		  background: linear-gradient(to left,#c1ff25,#93cd00,#52ca00,#26f500,#00d059,#ddff87);
+   }
+   25%{
+      color: #02ddccd7 ;
+   		  background: linear-gradient(to left,#ddff87,#c1ff25,#93cd00,#52ca00,#26f500,#00d059);
+   } 
+   30%{
+      color: #1b87ebee ;
+   		  background: linear-gradient(to left,#00d059,#ddff87,#c1ff25,#93cd00,#52ca00,#26f500);
+   } 
+   35%{
+      color: #2210c0;
+   		  background: linear-gradient(to left,#26f500,#00d059,#ddff87,#c1ff25,#93cd00,#52ca00);
+   } 
+   40%{
+      color: #a146fae1 ;
+   		  background: linear-gradient(to left,#52ca00,#26f500,#00d059,#ddff87,#c1ff25,#93cd00);
+   } 
+   45%{
+      color:#f755e8 ;
+   		  background: linear-gradient(to left,#93cd00,#52ca00,#26f500,#00d059,#ddff87,#c1ff25);
+   } 
+   50%{
+      color: #f7559ade ;
+   		  background: linear-gradient(to left,#c1ff25,#93cd00,#52ca00,#26f500,#00d059,#ddff87);
+   } 
+   55%{
+      color: #ee3b72d8 ;
+   		  background: linear-gradient(to left,#ddff87,#c1ff25,#93cd00,#52ca00,#26f500,#00d059);
+   } 
+   60%{
+      color: #cc0a0a ;
+   		  background: linear-gradient(to left,#00d059,#ddff87,#c1ff25,#93cd00,#52ca00,#26f500);
+   } 
+}
+    h2{
+      color: red;
+      font-size: 30px;
+      
+      }
+    h1{
+      color: rgba(25,255,255,1);
+      text-align: center;
+      background: linear-gradient(to left ,orange, red,green,blue);
+      border: 4px;
+      border-radius: 43px; 
+      text-shadow: 7px 3px 4px blue;         
+                
+    }
+    #i{
+      font-size: 20px;
+      font-weight: bold;
+      color: rgba(0,0,0,1);
+    }
+    body{
+
+    }
+video{
+      margin: 5px;  
+      height: 230px;
+      width: 320px;
+      justify-content: normal;
+      opacity: 1;
+}
+a{
+      text-decoration: none;
+      color: brown;
+      
+}
+
+    .more-text-container {
+    height: 55px; /* এখানে আপনি লেখার উচ্চতা সেট করতে পারেন */
+    overflow: hidden;
+    transition:height 300s ease-in-out;
+    border: 4px;
+    border-color: gold;
+    border-top-style: dashed;
+    border-bottom-style: dotted;        
+    margin: 10px;
+    color: black;
+    font-weight: bold;      
+              
+  }
+  .more-text-container.expanded {
+    height: auto;
+  }
+  .read-more-btn {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+    cursor: pointer;
+    border: 2px;
+    border-style: dashed;
+    border-color: aqua;
+    background-color: chocolate;    
+    display: inline; 
+    outline:2px;
+    outline-color: aquamarine;
+    outline-style: double;
+    font-weight: bolder;        
+  }
+  .faq-question {
+  padding: 16px;
+  border-bottom: 3px solid #000000;
+  cursor: pointer;
+  background-color: rgba(50,70,255,1);
+  border: 6px;
+  border-style: solid;        
+  border-color: red;
+  outline: 4px;
+  outline-color: blueviolet;
+  outline-style: double;        
+  border-radius: 50px;
+  margin: 17px ;
+  font-weight: bold;
+  color: aqua ;
+  margin-bottom: 3px ;
+  box-shadow: -5px 7px 2px gray        
+}
+.faq-question:active{
+      background-color: aliceblue;
+      color: red
+}
+.faq-answer {
+  padding: 20px;
+  display: flex;
+  background-color: chartreuse;
+  color: blueviolet;
+  border: 5px;
+  border-color: tomato;
+  border-style: dotted;  
+  outline: 3px;
+  outline-color: brown;
+  outline-style: double;
+  margin: 15px 30px;
+  border-radius: 25px;   
+  font-weight: bold; 
+  display: none    
+}
+.stik{
+      position: absolute;
+      top: 15;
+      margin-top: 70px;
+      padding: 0px;
+}
+
+.n{
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      border: 3px dotted gray;
+      width: 355px;
+      height: 20px;
+      background-color: aquamarine;
+      font-family: fantasy;
+      color: blue;
+      outline: 2px;
+      outline-style: dashed;
+      outline-color: brown;
+      margin-top: 80px;
+      opacity: 0.8
+}
+.und{
+      height: 40px;
+      width: auto;
+      background-color:  ;
+      margin-top: 1px;
+}
+.up{
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: red;
+      position: sticky;
+      top: 530px;
+      left: 300px;
+      font-weight: bolder;
+      background: linear-gradient(to left top, white)
+}
+.up a{
+      position: relative;
+      top: 7px;
+      left: 15px;
+      font-size: 49px;
+      
+}
+.all{
+      background: linear-gradient(to top left,aquamarine,cornflowerblue,aqua,skyblue,pink,deepskyblue,aquamarine,lightskyblue,cornflowerblue,springgreen);
+      margin: 0px;
+      padding: 0px;
+      background-opacity: 1 ;
+      display: flex;
+      flex-wrap: wrap;
+      width: 360px ;
+      margin-left: -4px;
+      padding-bottom: 20px;
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-bottom-color: gray
+      
+}
+.th{
+      margin-top: 20px;
+}
+p{
+      font-weight: bolder
+}
+{
+      color:   
+}
+#pa{
+      padding-right: 25px;
+      margin-bottom: 30px;
+}
+#answer2{
+      margin-top: 10px;
+}
+.hading{
+      margin-top: 60px;
+}
+.menu{
+      border: 2px solid gray;
+      list-style: none;
+      box-shadow: 0px 5px 9px gray;
+      margin: 5px auto;
+      background-color: aliceblue;
+      font-size: 20px;
+      padding: 0px 20px;
+      font-weight: bold;
+      border-radius: 7px;
+      width: 300px;
+      border: 1px solid grey;
+      position: sticky;
+      top: 0px;
+}
+.menu ui li {
+      display: inline;
+      padding-left: 17px;
+      padding-right: 17px;
+      color: blue;
+      font-weight: bolder;
+      border: 1px solid grey;
+      height: 10px;
+}
+
+.menu ui li a{
+      text-decoration: none;
+      width: 100px;
+}
+.li{
+      height: 15px;
+      width: 330px;
+      background-color: #2e0d9b;
+      margin-top: 25px;
+      margin-bottom: 0px;
+      margin-right: 0px;
+      margin-left: 8px;
+      border-radius: 40px
+}
+hr{
+		padding-bottom: -50
+}
+footer{
+		padding-top: 50px;
+	background-color: dimgray;
+		padding-bottom: 100px;
+ width: 360px;
+margin-top: 20px;
+margin-left: -5px     
+}
+footer a{
+		display: block;
+		text-align: center;
+		font-size: 19px;
+		padding: 10px;
+      color: aqua
+}
+footer p{
+      font-size: 10px;
+      text-align: center;
+      padding: 0px;
+}
+foote .c .a{
+      font-size: 8px;
+      
+}
+.c{
+      margin-bottom: -90px;
+}

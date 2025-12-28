@@ -1,0 +1,32 @@
+body{
+		margin: 0px;
+		padding: 0px;
+		background-color: beige;
+}
+h1{
+		text-align: center;
+		color: #00ced1
+}
+hr{
+		padding-bottom: -50
+}
+footer{
+		padding-top: 100px;
+	background-color: dimgray;
+		padding-bottom: 100px
+}
+footer a{
+		display: block;
+		text-align: center;
+		font-size: 19px;
+		padding: 10px;
+}
+
+.p{
+		font-weight: bolder;
+		margin: 10px
+}
+strong{
+		color: brown;
+		font-size: 19px
+}
